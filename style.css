@@ -1,0 +1,67 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url('https://source.unsplash.com/1600x900/?landscape');
+    
+}
+  
+    
+.temp{
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.card{
+    background-color: rgba(22, 27, 25, 0.65);
+    padding: 1.5em;
+    max-width: 300px;
+    border-radius: 15px;
+    width: 100%;
+    margin: 1.5em;
+    border-style: solid;
+    border-color: azure;
+    position: relative;
+    color: aliceblue;
+    
+    
+}
+.search-bar{
+    border-radius: 10px;
+    border: none;
+    height: 25px;
+    width: 200px;
+    padding-left: 10px;
+}
+
+.pushMe{
+    height: 25px;
+    border-radius: 5px;
+    border: none;
+}
+
+.description{
+    text-transform: capitalize;
+    
+}  
+
+.flex{
+    display: flex;
+    align-items: center;
+}
+
+.weather.default {
+    visibility: hidden;
+
+}
+    
+
+.weather.default:after {
+    visibility: visible;
+    content: "Enter City...";
+    color: white;
+    position: absolute;
+}
